@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vinny Portfolio</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css" integrity="sha256-46qynGAkLSFpVbEBog43gvNhfrOj+BmwXdxFgVK/Kvc=" crossorigin="anonymous"/>
+    <link rel="stylesheet" href="styles.css">
+
+    <!-- Update these with your own fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Source+Code+Pro:400,900|Source+Sans+Pro:300,900&display=swap" rel="stylesheet">
+
+</head>
+<body>
+
+    <header class="header-menu">
+        <div class="logo">
+            <img src="img/vinny.png" alt="logo" width="95px" height="50px">
+        </div>
+        <button class="nav-toggle" aria-label="toggle navigation">
+          <span class="hamburger"></span>
+      </button>
+      <nav class="nav">
+          <ul class="nav__list">
+            <li class="nav__item"><a href="#home" class="nav__link">Home</a></li>
+            <li class="nav__item"><a href="#about" class="nav__link">About</a></li>
+            <li class="nav__item"><a href="#footer" class="nav__link">Contact</a></li>
+          </ul>
+      </nav>
+    </header>
+
+    <!-- Introduction -->
+    <section class="intro" id="home">
+        <img src="img/vinny-01.jpg" alt="My pic" class="intro__img">
+        <h1 class="section__title section__title--intro section_title_animated">
+            Hi, I am <strong>Vinny Wilson</strong>
+        </h1>
+        <p class="section__subtitle section__subtitle--intro section_subtitle_trans">front-end dev</p>
+    </section>
+
+    <!-- About me -->
+    <section class="about-me" id="about">
+        <h2 class="section__title section__title--about">Who I am</h2>
+        <p class="section__subtitle section__subtitle--about">Web Developer</p>
+        
+        <div class="about-me__body">
+            <p>The name is Vinny P Wilson. A front-end developer based in Pune, Maharashtra. I like reading, writing, classical music, web designing, motorcycle riding. Areas of Interests: Programming, Engineering, Psychology, Philosophy, Physics and Orchestral Music.</p>
+        </div>
+        
+        <img src="img/vinny-02.jpg" alt="Jane leaning against a bus" class="about-me__img">
+     </section>
+
+
+        <!-- Footer -->
+        <footer class="footer" id="footer">
+            <a class="footer__link">wilsonvinny007@gmail.com</a>
+          <ul class="social-list">
+              <li class="social-list__item">
+                  <a class="social-list__link" href="https://codepen.io/wilsonvinny7">
+                      <i class="fab fa-codepen"></i>
+                  </a>
+              </li>
+              <li class="social-list__item">
+                  <a class="social-list__link" href="https://dribbble.com/wilsonvinny007">
+                      <i class="fab fa-dribbble"></i>
+                  </a>
+              </li>
+              <li class="social-list__item">
+                  <a class="social-list__link" href="https://github.com/TheTungston">
+                      <i class="fab fa-github"></i>
+                  </a>
+              </li>
+          </ul>
+        </footer>
+
+    <script src="app.js"></script>
+</body>
+</html>
